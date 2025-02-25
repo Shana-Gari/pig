@@ -29,7 +29,7 @@ while game_over == False:
         print("Player", player_index+1, "turn")
 
         score =0
-        
+
         # while loop to allow the player to roll multiple times in a single turn until they choose to stop or roll a 1
         while True:
 
@@ -62,12 +62,12 @@ while game_over == False:
         print("\n")
         print("Player scores:", player_scores)
         print("\n")
-        
+
+#Prints the final scores of each player
+print("\n")
 print("Final Scores:")
 for i in range(players):
     print("Player", i+1, ":", player_scores[i])
 print("\n")
 print("Game over!")
-
-   
         
