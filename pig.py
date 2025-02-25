@@ -17,4 +17,7 @@ while True:
     else:
         print("Invalid input. Please enter a number between 2 and 4.")
 
-print(players)
+max_score=50
+player_scores=[0 for _ in range(players)]  #list comprehension to create a list of 0s for each player score. The _ is used as a throwaway variable, meaning we don't care about the value of the variable.
+
+print(player_scores)
